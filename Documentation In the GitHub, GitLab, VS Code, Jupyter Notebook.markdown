@@ -10,16 +10,47 @@ Markdown
 ---
 
 
-# Markdown Syntax
+# သင်္ကေတများသတ်မှတ်ခြင်း ( Markdown Syntax )
 
-## 1. ခေါင်းစဉ်များ (Heading)
+## သတ်မှတ်ခြင်း (Markdown)
+ 
+သတ်မှတ်ခြင်း 
+#1 head
+- ပ
+1.ပ
+[ သွား ]( https://www.google.com) 
+
+### ထွက်:
+
+# head
+  ပထမ
+၁. ပထမ
+google  သွား 
+
+---
+## ထွက်ပြရန် ( Output )
+
+သတ်မှတ်ခြင်း 
+
+ထွက် (" [ သွား ]( https://www.google.com)  ")
+
+### ထွက်:
+
+google သွား
+
+---
+
+
+## 1. ခေါင်းစဉ်တပ်ခြင်း (Heading)
+
+သတ်မှတ်ခြင်း
 
 ၁ဇ ခေါင်းစဉ်
 ၂ဇ ခေါင်းစဉ်
 ၃ဇ ခေါင်းစဉ်
 ၄ဇ ခေါင်းစဉ်
 
-### Output:
+### ထွက်:
 
 #H1 ခေါင်းစဉ် 
 
@@ -31,13 +62,15 @@ Markdown
 
 ---
 
-## 2. Bold & Italic အရောင်ထူခြင်းနှင့်စာလုံးစောင်းခြင်း
+## 2.  အရောင်ထူခြင်းနှင့်စာလုံးစောင်းခြင်း (Bold & Italic)
+
+သတ်မှတ်ခြင်း
 
 **စာထူ**  
 *စာစောင်း*  
 ***စာထူ + စာသစာင်း***
 
-### Output:
+### ထွက်:
 
 Bold စာသား ( အရောင်ထူသောစာကြောင်း)
 Italic စာသား (စောင်းနေသော စာကြောင်း)
@@ -47,6 +80,7 @@ Bold + Italic
 
 ## 3. အမှတ်စဉ်များ ( Bullet & Numbered)
 
+သတ်မှတ်ခြင်း
 - ပ 
 - ဒု 
 - တ
@@ -55,7 +89,7 @@ Bold + Italic
 ၂.ဒု
 ၃.တ
 
-### Output:
+### ထွက်:
 
 ပထမ
 
@@ -83,9 +117,11 @@ Bold + Italic
 
 ###```ဗမာဗန်း 
 
+သတ်မှတ်ခြင်း
+
 ပေါ် ("Hello, Myanmar Programming Language!")
 
-### **Output:**
+### **ထွက်:**
 
 
 ####```ဗမာဗန်
@@ -95,12 +131,13 @@ print(" Hello, Myanmar Programming Language!")
 ---
 
 ## 5. ချိတ် (Links) & ပုံ (Images)
+သတ်မှတ်ခြင်း
 
-[GitHub ချိတ် ](https://github.com)  
+[ချိတ်](https://github.com)  
 
-![Myanmar ပုံ ](https://example.com/image.png)
+ [ပုံ](https://example.com/image.png)
 
-### Output:
+### ထွက်:
 
 GitHub ချိတ်
 
@@ -109,15 +146,38 @@ GitHub ချိတ်
 
 ## 6.ဇယား ( Table)
 
+သတ်မှတ်ခြင်း 
 | နာမည် | အသက် | နေရပ် |
 |--------|------|------|
 | Aung   | 25   | Yangon |
 | Thida  | 22   | Mandalay |
 
-### Output:
+### ထွက်:
+
 
 
 ---
+# အပိုသင်္ကေတများ သတ်မှတ်ခြင်း ( Extra Markdown Syntax )
+
+## ^  = ပြောင်းပါ ( Change )
+
+သတ်မှတ်ခြင်း 
+B ^ A
+
+### ထွက်ပါ
+A
+
+## /^ = ပြန်ပြောင်းပါ ( Re-Change ) 
+
+သတ်မှတ်ခြင်း 
+
+B /^ A
+
+### ထွက်ပါ
+B
+
+---
+
 
 
 # Markdown for Myanmar Programming Language Documentation .
