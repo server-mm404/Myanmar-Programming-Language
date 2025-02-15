@@ -7,61 +7,61 @@ Markdown
 #Documentation Formatting Language
 #Documentation In the GitHub, GitLab, VS Code, Jupyter Notebook  
 #For Programming language main use are README.md 
-------
-Markdown Syntax
-
-1. Heading (ခေါင်းစဉ်များ)
-
-# H1 ခေါင်းစဉ်
-## H2 ခေါင်းစဉ်
-### H3 ခေါင်းစဉ်
-#### H4 ခေါင်းစဉ်
-
-Output:Example 
-
-H1 ခေါင်းစဉ် (font_size =19 )
-
-H2 ခေါင်းစဉ် (font_size =17 )
-
-H3 ခေါင်းစဉ် (font_size =15 )
-
-H4 ခေါင်းစဉ် (font_size =13 )
+---
 
 
-#MARKDOWN
+# Markdown Syntax
 
-2. Bold & Italic အရောင်ထူခြင်းနှင့်စာလုံးစောင်းခြင်း
+## 1. ခေါင်းစဉ်များ (Heading)
 
-**Bold စာထူ**  
-*Italic စာစောင်း*  
-***Bold + Italic***
+၁ဇ ခေါင်းစဉ်
+၂ဇ ခေါင်းစဉ်
+၃ဇ ခေါင်းစဉ်
+၄ဇ ခေါင်းစဉ်
 
-Output:
+### Output:
+
+#H1 ခေါင်းစဉ် 
+
+##H2 ခေါင်းစဉ်
+
+###H3 ခေါင်းစဉ် 
+
+####H4 ခေါင်းစဉ်
+
+---
+
+## 2. Bold & Italic အရောင်ထူခြင်းနှင့်စာလုံးစောင်းခြင်း
+
+**စာထူ**  
+*စာစောင်း*  
+***စာထူ + စာသစာင်း***
+
+### Output:
 
 Bold စာသား ( အရောင်ထူသောစာကြောင်း)
 Italic စာသား (စောင်းနေသော စာကြောင်း)
 Bold + Italic
 
+---
 
-#MARKDOWN
+## 3. အမှတ်စဉ်များ ( Bullet & Numbered)
 
-3. List များ (Bullet & Numbered)
+- ပ 
+- ဒု 
+- တ
 
-- ပ = ပချက်  
-- ဒု = ဒုချက်  
-- တ= တချက်  
+၁.ပ
+၂.ဒု
+၃.တ
 
-1. ပ = ပထမ  
-2. ဒု = ဒုတိယ  
-3. တ= တတိယ
+### Output:
 
-Output:
+ပထမ
 
-ပထမအချက်
+ဒုတိယ
 
-ဒုတိယအချက်
-
-တတိယအချက်
+တတိယ
 
 
 1. ပထမ
@@ -72,48 +72,52 @@ Output:
 
 3. တတိယ
 
+---
 
 
+# M Programming Syntax
+## 4. Code Block (သင်္ကေတခံခြင်း )
 
-#MARKDOWN
+## Print = ပေါ် (ထွက်ပေါ်ပါ)
+## Python = ဗမာဗန်း (python_ကိုဗမာလို )
 
-4. Code Block - Programming Syntax
-Print= ပေါ်ပါ  ( ထွက်ပေါ်ပါ )
-```python
-ပေါ်ပါ("မင်္ဂလာပါ, မြန်မာ ပရိုဂရမ် ဘာသာရပ်!")
+###```ဗမာဗန်း 
 
-#### **Output:**  
-```python
+ပေါ် ("Hello, Myanmar Programming Language!")
 
-" မင်္ဂလာပါ, မြန်မာ ပရိုဂရမ် ဘာသာရပ် "
-
-
-#MARKDOWN
-
-5. Links & Images
-
-[GitHub သွားပါ](https://github.com)  
-
-![Myanmar ပုံဒီဇိုင်း ](https://example.com/image.png)
-
-Output:
-
-GitHub သွားပါ
+### **Output:**
 
 
+####```ဗမာဗန်
+
+print(" Hello, Myanmar Programming Language!")
+
+---
+
+## 5. ချိတ် (Links) & ပုံ (Images)
+
+[GitHub ချိတ် ](https://github.com)  
+
+![Myanmar ပုံ ](https://example.com/image.png)
+
+### Output:
+
+GitHub ချိတ်
 
 
-#MARKDOWN
+---
 
-6. Table (ဇယား)
+## 6.ဇယား ( Table)
 
 | နာမည် | အသက် | နေရပ် |
 |--------|------|------|
 | Aung   | 25   | Yangon |
 | Thida  | 22   | Mandalay |
 
-Output:
-Eg; Excel Table Type 
+### Output:
 
 
-#Markdown for Myanmar Programming Language Documentation .
+---
+
+
+# Markdown for Myanmar Programming Language Documentation .
