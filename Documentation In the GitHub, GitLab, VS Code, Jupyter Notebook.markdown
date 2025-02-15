@@ -1,7 +1,7 @@
 #push markdown 
 #Form README.md
 location is https://github.com/server-mm404/Myanmar-Programming-Language-Documentation
-Markdown ဆိုတာဘာလဲ?
+Markdown 
 
 #Markdown syntax
 #Documentation Formatting Language
