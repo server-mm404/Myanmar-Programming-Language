@@ -1,0 +1,15 @@
+# GitHub repo ကို clone ပြုလုပ်ပါ
+git clone https://github.com/သင့်GitHub/Myanmar-Programming-Language.git
+
+# Repo ထဲသို့သွားပါ
+cd Myanmar-Programming-Language-docs
+
+# Documentation ဖိုင်များထည့်ပါ
+echo "# Myanmar Programming Language Documentation" > README.md
+mkdir docs
+echo "Myanmar-Programming-Language Documentation Start Here..." > docs/index.md
+
+# Git commit & push
+git add .
+git commit -m "Initial commit for Myanmar-Programming-Language.docs"
+git push origin main၏
