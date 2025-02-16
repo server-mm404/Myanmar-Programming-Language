@@ -1,0 +1,13 @@
+# douctmentation structure 
+m-programming-language-docs/
+│── README.md
+│── docs/
+│   ├── introduction.md
+│   ├── syntax.md
+│   ├── examples.md
+│   ├── installation.md
+│   ├── contribution.md
+│   ├── community.md
+│── assets/
+│   ├── images/
+│── LICENSE
