@@ -1,121 +1,185 @@
 # Myanmar-Programming-Language
-*Myanmar Programming Language Documention*
-# Myanmar Programming Language 
-# HTML, CSS, JavaScript Syntax Documents
+#push markdown 
+#Form README.md
+location is https://github.com/server-mm404/Myanmar-Programming-Language-Documentation
+Markdown 
 
-1. HTML Tag များ
+#Markdown syntax
+#Documentation Formatting Language
+#Documentation In the GitHub, GitLab, VS Code, Jupyter Notebook  
+#For Programming language main use are README.md 
+---
 
-<a> = <ဖ> (ဖွင့်ရန်)  
-<p> = <စ> (စာမျက်နှာ)  
-<img> = <ပုံ> (ရုပ်ပုံ)  
-<div> = ထပ် (ထပ်၍)  
-<strong> = ဖော်ပြ (ထပ်ဖော်ပြရန်)  
-<form> = <မှ>  
-<input> = <ဝင်>  
-<table> = <ဇယား>  
-<tr> = <၎င်းသို့>  
-<th> = <ခေါင်း>  
-<td> = <သို့>  
-<ol> = <စာရင်း>  
-<ul> = <မှတ်>  
-<li> = <စာ>
 
-2. Attribute များ
+# သင်္ကေတများသတ်မှတ်ခြင်း ( Markdown Syntax )
 
-href = သွား (သွားရန်လမ်းကြောင်း)  
-src = မှ (လည်ကောင်းတံမှ)  
-alt = ပြ (ပုံအဖြစ်ပြ)  
-attribute = ကို (ရည်ညွှန်းမှုကို)  
-type = ပုံစံ  
-name = အမည်  
-value = တန်ဖိုး
+## သတ်မှတ်ခြင်း (Markdown)
 
-3. Meta Tags
+သတ်မှတ်ခြင်း 
 
-<meta> = <သတ်မှတ်> (သတ်မှတ်ချက်)  
-charset = စာလုံးများ  
-name="viewport" = မျက်နှာပြင်  
-content = အကြောင်းအရာ  
-http-equiv = HTTP သတ်မှတ်ချက်  
-description = ဖော်ပြချက်  
-keywords = ရှာဖွေရေးစကားလုံးများ  
-author = ရေးသားသူ
+#1 head
+- ပ
+1.ပ
+[ သွား ]( https://www.google.com) 
 
-4. Form Validation Attributes
+### ထွက်:
 
-required = လိုအပ်သည်  
-pattern = ပုံစံနည်းလမ်း  
-maxlength = အလျားအမြင့်ဆုံး  
-minlength = အလျားအနည်းဆုံး  
-min = အနည်းဆုံးတန်ဖိုး  
-max = အမြင့်ဆုံးတန်ဖိုး  
-step = တိုးတန်းခြားနားမှု  
-placeholder = ဉပမာစာသား
+# head
+  ပထမ
+၁. ပထမ
+google  သွား 
 
-5. Event Attributes
+---
+## ထွက်ပြရန် ( Output )
 
-onclick = နှိပ်သောအခါ  
-onmouseover = ပေါ်လာသောအခါ  
-onmouseout = ထွက်သွားသောအခါ  
-onload = ထည့်သွင်းသောအခါ  
-onchange = ပြောင်းလဲသောအခါ  
-oninput = သုံးစွဲသူထည့်သောအခါ  
-onsubmit = ပို့သောအခါ
+သတ်မှတ်ခြင်း 
 
-6. Document & Comment
+ထွက် (" [ သွား ]( https://www.google.com)  ")
 
-Comments = မှတ်ရန် (မှတ်သားရန်)  
-Documents = သတ်မှတ် (သတ်မှတ်ခြင်း)
+### ထွက်:
 
-7. JavaScript DOM Elements
-
-document = စာရွက်စာတမ်း  
-window = ပြသမှုခွင်  
-getElementById = ID ဖြင့်ရယူ  
-getElementsByClassName = Class ဖြင့်ရယူ  
-getElementsByTagName = Tag ဖြင့်ရယူ  
-querySelector = ရွေးချယ်မည်  
-querySelectorAll = အားလုံးရွေးချယ်မည်  
-innerHTML = HTML အတွင်းပါဝင်မှု  
-innerText = စာသားအတွင်းပါဝင်မှု  
-style = ဒီဇိုင်း  
-classList = Class စာရင်း  
-addEventListener = ဖြည့်သွင်းဖြေဆိုမှု  
-removeEventListener = ဖြည့်သွင်းဖြေဆိုမှု ဖယ်ရှား
-
-8. CSS Attributes
-
-color = အရောင်  
-background = နောက်ခံ  
-font-size = စာလုံးအရွယ်  
-font-family = စာလုံးပုံစံ  
-margin = အနားခံ  
-padding = အတွင်းအကွာအဝေး  
-border = စွဲခြင်း  
-width = အနံ  
-height = အမြင့်  
-display = ပြသမှု  
-position = တည်နေရာ  
-top = အပေါ်ဘက်  
-left = ဘယ်ဘက်  
-right = ညာဘက်  
-bottom = အောက်ဘက်  
-opacity = ဖောက်ထွင်းမှု  
-visibility = မြင်ရမှု  
-z-index = အထပ်မြင့်
-
-9. SVG & Canvas Tags
-
-<svg> = SVG ပုံဆွဲခြင်း  
-<circle> = စက်ဝိုင်း  
-<rect> = ထောင့်မှန်ကြက်လပ်  
-<line> = မျဉ်းကြောင်း  
-<polygon> = အနားသတ်မြှား  
-<path> = လမ်းကြောင်း  
-<text> = စာသား  
-<canvas> = ပုံဆွဲသား
-
+google သွား
 
 ---
 
 
+## 1. ခေါင်းစဉ်တပ်ခြင်း (Heading)
+
+သတ်မှတ်ခြင်း
+
+၁ဇ ခေါင်းစဉ်
+၂ဇ ခေါင်းစဉ်
+၃ဇ ခေါင်းစဉ်
+၄ဇ ခေါင်းစဉ်
+
+### ထွက်:
+
+#H1 ခေါင်းစဉ် 
+
+##H2 ခေါင်းစဉ်
+
+###H3 ခေါင်းစဉ် 
+
+####H4 ခေါင်းစဉ်
+
+---
+
+## 2.  အရောင်ထူခြင်းနှင့်စာလုံးစောင်းခြင်း (Bold & Italic)
+
+သတ်မှတ်ခြင်း
+
+**စာထူ**  
+*စာစောင်း*  
+***စာထူ + စာသစာင်း***
+
+### ထွက်:
+
+Bold စာသား ( အရောင်ထူသောစာကြောင်း)
+Italic စာသား (စောင်းနေသော စာကြောင်း)
+Bold + Italic
+
+---
+
+## 3. အမှတ်စဉ်များ ( Bullet & Numbered)
+
+သတ်မှတ်ခြင်း
+- ပ 
+- ဒု 
+- တ
+
+၁.ပ
+၂.ဒု
+၃.တ
+
+### ထွက်:
+
+ပထမ
+
+ဒုတိယ
+
+တတိယ
+
+
+1. ပထမ
+
+
+2. ဒုတိယ
+
+
+3. တတိယ
+
+---
+
+
+# M Programming Syntax
+## 4. Code Block (သင်္ကေတခံခြင်း )
+
+## Print = ပေါ် (ထွက်ပေါ်ပါ)
+## Python = ဗမာဗန်း (python_ကိုဗမာလို )
+
+###```ဗမာဗန်း 
+
+သတ်မှတ်ခြင်း
+
+ပေါ် ("Hello, Myanmar Programming Language!")
+
+### **ထွက်:**
+
+
+####```ဗမာဗန်
+
+print(" Hello, Myanmar Programming Language!")
+
+---
+
+## 5. ချိတ် (Links) & ပုံ (Images)
+သတ်မှတ်ခြင်း
+
+[ချိတ်](https://github.com)  
+
+ [ပုံ](https://example.com/image.png)
+
+### ထွက်:
+
+GitHub ချိတ်
+
+
+---
+
+## 6.ဇယား ( Table)
+
+သတ်မှတ်ခြင်း 
+| နာမည် | အသက် | နေရပ် |
+|--------|------|------|
+| Aung   | 25   | Yangon |
+| Thida  | 22   | Mandalay |
+
+### ထွက်:
+
+
+
+---
+# အပိုသင်္ကေတများ သတ်မှတ်ခြင်း ( Extra Markdown Syntax )
+
+## ^  = ပြောင်းပါ ( Change )
+
+သတ်မှတ်ခြင်း 
+B ^ A
+
+### ထွက်ပါ
+A
+
+## /^ = ပြန်ပြောင်းပါ ( Re-Change ) 
+
+သတ်မှတ်ခြင်း 
+
+B /^ A
+
+### ထွက်ပါ
+B
+
+---
+
+
+
+# Markdown for Myanmar Programming Language Documentation .
